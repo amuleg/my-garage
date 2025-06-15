@@ -43,4 +43,9 @@ class Car extends Model
     {
         return $this->hasMany(Photo::class);
     }
+    public function plans()
+    {
+        return $this->hasMany(Plan::class);
+    }
+
 }
