@@ -14,4 +14,3 @@ use App\Http\Controllers\CarController;
        Route::get('/cars/{user}', [CarController::class, 'showUserCars'])->name('cars.user');
    });
 
-require __DIR__.'/auth.php';
